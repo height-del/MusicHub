@@ -1,0 +1,28 @@
+.mydiv {
+  color:black;
+  animation: myanimation 10s infinite;
+  z-index: -1;
+}
+
+@keyframes myanimation {
+  0% {background-color: #eef; opacity: 0.8;}
+  25%{background-color: #f9f9f9; opacity: 0.8;}
+  50%{background-color:#c0c0c0; opacity: .8;}
+  75%{background-color: #808080; opacity: .8;}
+  100% {background-color: #666666;}
+}
+
+.mydev {
+	color:#f9f9f9;
+	animation: picanimation 60s infinite;
+	z-index: .5;
+}
+
+
+@keyframes picanimation {
+	0% { background-image: url('animated-dancing-image-0420.gif'); }
+	25% { background-image: url('animated-dancing-image-0420.gif'); background-repeat: no-repeat; width: 100%; height: 100%; background-attachment: fixed; background-position: center; background-size: cover;}
+	50% { background-image: url('cf4cada50d449ae6c1bb2ea8ed6508d9.gif');}
+	75% { background-image: url('9czx8rbki.gif'); }
+	100% { background-image: url('9czx8rbki.gif'); background-repeat: no-repeat; width: 100%; height: 100%; background-attachment: fixed; background-position: center; background-size: cover;}
+}
